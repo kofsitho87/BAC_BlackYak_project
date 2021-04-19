@@ -1,0 +1,552 @@
+
+/* .header{
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.header h1{
+  width: 132px;
+  height: 56px;
+  background: url(../imgs/logo_top_05.jpg) no-repeat;
+  text-indent: -9999px;
+  float: left;
+  margin-top: 40px;
+}
+
+.gnb{
+  width: 650px;
+  margin: 70px 0 0 210px;
+  float: left;
+  
+}
+
+.gnb ul{
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  
+}
+
+.gnb ul li{
+  float: left;
+  margin-right: 50px;
+}
+
+.login{
+  display: block;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background: #006fe7;
+  color: white;
+  text-align: center;
+  padding: 5px 2px;
+  font-size: 12px;
+  border-radius: 20px;
+} */
+
+.main__banner{
+  background: url(../imgs/main_banner_10.jpg);
+  width: 1200px;
+  height: 675px;
+  text-indent: -9999px;
+  margin: 0 auto 90px;
+  position: relative;
+}
+
+.main__banner .prev_btn{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imgs/prev_icon_03.png);
+  text-indent: -9999px;
+  position: absolute;
+  left: 0;
+  top: 310px;
+}
+
+.banner__txt{
+  display: block;
+  background: url(../imgs/bac_main_title_07.png) no-repeat;
+  width: 240px;
+  height: 183px;
+  text-indent: -9999px;
+  position: absolute;
+  top: 260px;
+  right: 450px;
+  
+}
+
+.main__banner .next_btn{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../imgs/next_icon_03.png);
+  text-indent: -9999px;
+  position: absolute;
+  right: 0;
+  top: 310px;
+}
+
+
+.inner__1{
+  width: 1200px;
+  margin: 0 auto 80px;
+}
+
+.inner__1 h2{
+  background: url(../imgs/challegne_text_11.jpg) no-repeat;
+  width: 428px;
+  height: 38px;
+  text-indent: -9999px;
+  margin: 0 auto 50px;
+}
+
+.inner__1 > p{
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 78px;
+}
+
+.challenge__list{
+  width: 1200px;
+  height: 710px;
+  margin: 0 auto 20px;
+}
+
+
+.challenge__img1{
+  background: url(../imgs/challenge_img-1_14.jpg) no-repeat;
+  width: 590px;
+  height: 343px;
+  text-indent: -9999px;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.challenge__img2{
+  background: url(../imgs/challenge_img_2_15.jpg) no-repeat;
+  width: 590px;
+  height: 343px;
+  text-indent: -9999px;
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.challenge__img3{
+  background: url(../imgs/challenge_img-3_14.jpg) no-repeat;
+  width: 590px;
+  height: 343px;
+  text-indent: -9999px;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
+.challenge__img4{
+  background: url(../imgs/challenge_img-4_15.jpg) no-repeat;
+  width: 590px;
+  height: 343px;
+  text-indent: -9999px;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+
+.inner__1 a{
+  display: block;
+  border: 1px solid #dc1759;
+  width: 135px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+  color: #dc1759;
+}
+
+.inner__1 a:hover{
+  color: white;
+  background: #dc1759;
+}
+
+
+/* inner__1 종료 */
+
+/* section 2 */
+
+.inner__2{
+  width: 1200px;
+  height: 675px;
+  margin: 0 auto 80px;
+  background: url(../imgs/bac_club_iu.jpg);
+  position: relative;
+}
+
+.inner__2 h2{
+  background: url(../imgs/club_title_03.png);
+  width: 276px;
+  height: 44px;
+  text-indent: -9999px;
+  margin-bottom: 30px;
+}
+
+.inner__2-txt{
+  width: 375px;
+  color: white;
+  line-height: 30px;
+  position: absolute;
+  left: 185px;
+  top: 115px
+}
+
+.club__txt1{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.club__txt2{
+  margin-bottom: 25px;
+}
+
+.club__txt3{
+  margin-bottom: 30px;
+}
+
+.btn__club{
+  
+  color: white;
+  border: 1px solid white;
+  width: 135px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.btn__club:hover{
+  background: white;
+  color: black;
+}
+
+/* section 2 종료 */
+
+/* section 3 영역 */
+.inner__3{
+  width: 1200px;
+  margin: 0 auto 80px;
+}
+
+.inner__3 h2{
+  background: url(../imgs/suits_title_11.jpg) no-repeat;
+  width: 231px;
+  height: 38px;
+  text-indent: -9999px;
+  margin: 0 auto 30px;
+}
+
+.inner__3 p{
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.inner__3 ul{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.inner__3 .suits__img1{
+  background: url(../imgs/suits_img1_07.jpg);
+  width: 385px;
+  height: 480px;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 20px;
+}
+
+.inner__3 .suits__img2{
+  background: url(../imgs/suits_img2_07.jpg);
+  width: 385px;
+  height: 480px;
+  text-indent: -9999px;
+  float: left;
+  margin-right: 20px;
+}
+
+.inner__3 .suits__img3{
+  background: url(../imgs/suits_img3_07.jpg);
+  width: 385px;
+  height: 480px;
+  text-indent: -9999px;
+  float: left;
+}
+
+.inner__3 .btn_buy{
+  
+  border: 1px solid #dc1759;;
+  width: 135px;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  margin: 0 auto;
+  color: #dc1759;
+}
+
+.inner__3 .btn_buy:hover{
+  background: #dc1759;;
+  color: white;
+}
+/* section 3 영역 끝 */
+
+/* section 4 영역 */
+
+.inner__4-img{
+  margin-bottom: 80px;
+}
+
+
+.inner__4{
+  width: 1200px;
+  height: 675px;
+  background: url(../imgs/center_img_03.jpg) no-repeat;
+  margin: auto;
+  position: relative;
+}
+
+.center__txt{
+  width: 1200px;
+  margin: 0 auto 100px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 30px;
+}
+
+
+.inner__4 h2{
+  background: url(../imgs/bacmain2020_0014.png) no-repeat;
+  width: 357px;
+  height: 43px;
+  text-indent: -9999px;
+  margin: 70px auto;
+}
+
+.center__txt p{
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.inner__4 a{
+  border: 1px solid white;
+  color: white;
+  width: 135px;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  margin: 50px auto;
+}
+
+.inner__4 a:hover{
+  color: black;
+  background: white;
+}
+/* section 4 끝 */
+
+/* section 5 영역 */
+.inner__5{
+  width: 1200px;
+  margin: 0 auto 80px;
+}
+
+.inner__5-list{
+  width: 1200px;
+  height: 215px;
+
+  
+}
+
+.inner__5-list h2{
+  border: 1px solid gray;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-top:-1px
+}
+
+
+.inner__5-list ul li{
+  border: 1px solid gray;
+  padding: 10px 0;
+  font-size: 14px;
+  margin-top:-1px
+}
+
+.inner__5-list a{
+  display: block;
+  margin-left: 15px;
+}
+
+/* section 5 끝 */
+
+/* section 6 영역 */
+
+.inner__6-wrap{
+  height: 345px;
+  background: url(../imgs/mobile_bg_07.jpg);
+  margin-bottom: 30px;
+
+}
+
+.inner__6{
+  width: 855px;
+  height: 345px;
+  margin: auto;
+  position: relative;
+}
+
+.inner__6-txt{
+  display: inline-block;
+  /* width: 470px; */
+  text-align: center;
+  margin-top: 80px;
+}
+
+.inner__6 h2{
+  background: url(../imgs/bacmain2020_0011.png) no-repeat;
+  width: 470px;
+  height: 73px;
+  text-indent: -9999px;
+}
+
+.inner__6-txt p{
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.inner__6-txt ul{
+  overflow: hidden;
+  
+}
+
+.inner__6-txt ul li{
+  float: left;
+  
+}
+
+.inner__6-txt .sign_btn{
+  background: url(../imgs/app_sign-in_19.jpg);
+  width: 121px;
+  height: 47px;
+  text-indent: -9999px;
+  margin: 0 20px 0 95px;
+}
+
+.inner__6-txt .guide_btn{
+  background: url(../imgs/app_guide-txt_17.jpg);
+  width: 121px;
+  height: 47px;
+  text-indent: -9999px;
+}
+
+.inner__6 a {
+  display: block;
+  height: 100%;
+}
+
+.inner__6 img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* section 6 끝 */
+
+/* footer 영역 */
+
+.footer__wrap{
+  border-top: 1px solid black;
+}
+
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 13px;
+  position: relative;
+}
+
+.footer .site__info{
+  margin-top: 20px;
+}
+
+.footer .site__info ul{
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.footer .site__info ul li{
+  float: left;
+}
+
+.footer .site__info .info__li-1::after{
+  content: "|";
+  padding: 0 10px
+}
+
+
+.footer .site__info .info__li-2::after{
+  content: "|";
+  padding: 0 10px
+}
+
+.info__li-2 a{
+  color: red;
+}
+
+.footer__txt1{
+  overflow: hidden;
+}
+
+.footer__txt1 address{
+  float: left;
+  margin-right: 10px;
+}
+
+.footer__txt1 p {
+  float: left;
+}
+
+.family__site{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  border: 1px solid gray;
+  width: 166px;
+  height: 22px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.family__site h2{
+  font-size: 14px;
+
+  background: url(../imgs/family_site_arrow_03.png) no-repeat 140px;
+
+}
+
+.family__site ul{
+  border: 1px solid gray;
+  width: 166px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -1px;
+  background: white;
+}
+
+.family__site a{
+  padding-left: 10px;
+}

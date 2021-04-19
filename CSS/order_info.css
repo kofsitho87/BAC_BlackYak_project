@@ -1,0 +1,300 @@
+
+/* main 영역 */
+
+.user__info{
+  width: 1200px;
+  height: 112px;
+  /* overflow: hidden; */
+  margin: 0 auto; 
+  border-bottom: 1px solid gray;
+}
+
+
+.user__info h2{
+  font-size: 15px;
+}
+
+.user__info a{
+  float: left;
+  line-height: 112px;
+  margin: 0 50px 0 20px;
+}
+
+
+.user__info .my__info:hover,
+.user__info .order__list:hover{
+  color: red;
+}
+
+.user__info-1{
+  width: 1200px;
+  margin: 20px auto 70px;
+  overflow: hidden;
+  padding: 20px 0 30px;
+  border-bottom: 1px solid gray;
+}
+
+.user__area{
+  width: 360px;
+  overflow: hidden;
+  position: relative;
+  border-right: 1px solid gray;
+  padding-left: 20px;
+  float: left;
+}
+.user__area a{
+  display: block;
+  border: 1px solid gray;
+  font-size: 12px;
+  width: 45px;
+  position: absolute;
+  right: 65px;
+  padding: 5px;
+}
+
+.user__name{
+  float: left;
+}
+
+.user__name > .user__id{
+  margin-bottom: 20px;
+}
+
+.user__name span{
+  margin-right: 30px;
+}
+
+.user__icon{
+  float: left;
+  margin-right: 20px;
+}
+
+.user__icon p{
+  background: url(../imgs/user_icon_03.png) no-repeat;
+  width: 62px;
+  height: 62px;
+  text-indent: -9999px;
+}
+
+
+.user__coupon{
+  width: 270px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+.user__coupon dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user__coupon dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user__membership{
+  width: 270px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+.user__membership dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user__membership dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.user__club{
+  width: 270px;
+  text-align: center;
+  float: left;
+}
+
+.user__club dt{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.user__club dd{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* 유저 부분 끝 */
+
+/* 상품 부분 */
+.order__info{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.order__area{
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.order__area h3{
+  border-bottom: 1px solid gray;
+  font-weight: normal;
+  padding: 0 0 10px 10px;
+  font-size: 15px;
+}
+
+.order__area h3::before{
+  content: "•";
+  padding: 0 5px;
+}
+
+.order__area ul{
+  width: 100%;
+  /* overflow: hidden; */
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+  display: table;
+  table-layout: fixed;
+}
+
+.order__area ul li {
+  /* float:  left; */
+  /* margin: 0 auto; */
+  font-size: 14px;
+  text-align: center;
+  display: table-cell;
+}
+
+.order__area ul a{
+  border: 1px solid gray;
+  padding: 3px 12px;
+}
+
+.order__info .view{
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 12px;
+}
+
+
+.add__product{
+  position: relative;
+  border-bottom: 1px solid gray;
+  margin-bottom: 70px;
+}
+
+.add__product h3{
+  border-bottom: 1px solid gray;
+  font-weight: normal;
+  padding: 0 0 10px 10px;
+  font-size: 15px;
+}
+
+.add__product h3::before{
+  content: "•";
+  padding: 0 5px;
+}
+
+.add__product p{
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+/* footer 영역 */
+
+.footer__wrap{
+  border-top: 1px solid gray;
+}
+
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 13px;
+  position: relative;
+}
+
+.footer .site__info{
+  margin-top: 20px;
+}
+
+.footer .site__info ul{
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.footer .site__info ul li{
+  float: left;
+}
+
+.footer .site__info .info__li-1::after{
+  content: "|";
+  padding: 0 10px
+}
+
+
+.footer .site__info .info__li-2::after{
+  content: "|";
+  padding: 0 10px
+}
+
+.info__li-2 a{
+  color: red;
+}
+
+.footer__txt1{
+  overflow: hidden;
+}
+
+.footer__txt1 address{
+  float: left;
+  margin-right: 10px;
+}
+
+.footer__txt1 p {
+  float: left;
+}
+
+.family__site{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  border: 1px solid gray;
+  width: 166px;
+  height: 22px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.family__site h2{
+  font-size: 14px;
+
+  background: url(../imgs/family_site_arrow_03.png) no-repeat 140px;
+
+}
+
+.family__site ul{
+  border: 1px solid gray;
+  width: 166px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -1px;
+  background: white;
+}
+
+.family__site a{
+  padding-left: 10px;
+}

@@ -1,0 +1,198 @@
+
+
+/* main 영역 */
+
+.bg-img{
+  background: url(../imgs/back.png) no-repeat center center;
+  background-size: cover;
+}
+
+.main__layout{
+  text-align: center;
+}
+
+.main__layout> h2{
+  padding: 50px 0 20px 0; 
+}
+
+
+.form__wrap{
+  display: inline-block;
+}
+
+.form__wrap > form{
+  width: 300px;
+}
+
+.form__wrap form input{
+  width: 100%;
+  outline: none;
+  background: transparent;
+  border: none;
+}
+
+
+.form__wrap button{
+  width: 100%;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  /* outline: none; */
+}
+
+.form__control{
+  /* background: #ededed; */
+  padding: 11px;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.button__wrap > .button__control:first-child{
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.button__wrap p{
+  margin-bottom: 10px;
+
+
+}
+
+
+.btn__login {
+  background: #ff006e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  
+}
+
+.btn__kakao {
+  background: #fdcd00;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btn__facebook {
+  background: #3b5998;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.btn__naver{
+  background: #19ce60;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.sign_in__area{
+  font-size: 13px;
+}
+
+.sign_in__area p:first-child{
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.sign_in__area p:nth-child(2){
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
+.sign_in__area p:last-child{
+  margin: 30px 0 50px 0;
+}
+
+/* footer 영역 */
+
+.footer__wrap{
+  border-top: 1px solid gray;
+}
+
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-size: 13px;
+  position: relative;
+}
+
+.footer .site__info{
+  margin-top: 20px;
+}
+
+.footer .site__info ul{
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.footer .site__info ul li{
+  float: left;
+}
+
+.footer .site__info .info__li-1::after{
+  content: "|";
+  padding: 0 10px
+}
+
+
+.footer .site__info .info__li-2::after{
+  content: "|";
+  padding: 0 10px
+}
+
+.info__li-2 a{
+  color: red;
+}
+
+.footer__txt1{
+  overflow: hidden;
+}
+
+.footer__txt1 address{
+  float: left;
+  margin-right: 10px;
+}
+
+.footer__txt1 p {
+  float: left;
+}
+
+.family__site{
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  border: 1px solid gray;
+  width: 166px;
+  height: 22px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.family__site h2{
+  font-size: 14px;
+
+  background: url(../imgs/family_site_arrow_03.png) no-repeat 140px;
+
+}
+
+.family__site ul{
+  border: 1px solid gray;
+  width: 166px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -1px;
+  background: white;
+}
+
+.family__site a{
+  padding-left: 10px;
+}
