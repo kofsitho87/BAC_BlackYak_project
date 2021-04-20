@@ -1,0 +1,12 @@
+.shop__banner {
+  width: 1200px;
+  margin: 0 auto 125px;
+}
+
+
+.shop__banner p{
+  background: url(../imgs/shop_banner_03.jpg) no-repeat;
+  width: 1200px;
+  height: 675px;
+  text-indent: -9999px;
+}

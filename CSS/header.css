@@ -4,9 +4,11 @@
 
 .header{
   width: 1200px;
-  height: 100px;
-  margin: 0 auto 20px;
+  /* height: 100px; */
+  margin: 0 auto;
   position: relative;
+  overflow: hidden;
+  padding-bottom: 20px;
 }
 
 .header h1{
@@ -19,23 +21,99 @@
 }
 
 .gnb{
-  width: 650px;
-  margin: 70px 0 0 210px;
+  width: 850px;
+  margin: 70px 0 0 85px;
   float: left;
-  
+  height: 0;
+  /* color: white; */
+  position: relative;
+  z-index: 10;
+  /* height: 150px; */
+  transition: height 0.3s;
 }
 
-.gnb ul{
+.gnb:hover {
+  height: 150px;
+}
+
+.gnb ul li > a:hover{
+  color: var(--pink);
+}
+
+
+.gnb > ul{
   float: left;
   font-size: 15px;
   font-weight: bold;
+}
+
+.gnb > ul > li{
+  float: left;
+  /* margin-right: 50px; */
+  overflow: hidden;
+  padding: 0 50px;
+}
+
+
+.gnb .sub_menu{
+  position: absolute;
+  z-index: 12;
+  height: 150px;
+  font-size: 13px;
+  font-weight: normal;
+  margin-top: 20px;
+  /* text-align: center; */
+  /* display: none; */
+}
+
+
+.gnb:hover .sub_menu{
+  /* display: block; */
+}
+
+
+.gnb .sub_menu::before{
+  content: "";
+  position: absolute;
+  top: -20px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+}
+
+.gnb .sub_menu >li {
+  padding: 5px 0;
+}
+
+
+
+/* .sub_gnb{
+  width: 100%;
+  margin: auto;
+ 
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+
+  background-color: white;
+  height: 160px;
+  font-size: 14px;
+}
+
+.sub_gnb .gnb_sub-menu{
+  display: inline-block;
+  padding: 8px 25px;
   
 }
 
-.gnb ul li{
-  float: left;
-  margin-right: 50px;
-}
+.gnb_sub-menu > ul li{
+  padding: 5px 0;
+  
+} */
+
+
 
 .login{
   display: block;
@@ -102,3 +180,4 @@
   padding: 3px;
 
 }
+
